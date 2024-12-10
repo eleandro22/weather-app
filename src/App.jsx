@@ -1,9 +1,12 @@
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
-}
+const App = () => {
+  return (
+    <div className="main-container">
+      <div className="sidebar"> Oklahoma City </div>
+      <div className="content"> Content </div>
+    </div>
+  );
+};
 
 export default App;
