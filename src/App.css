@@ -1,10 +1,79 @@
-@font-face {
-  font-family: "MyFont";
-  src: url("./assets/fonts/Kanetin.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+body {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(135deg, #131212, #3c3c3c);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem;
+  color: white;
 }
 
-body {
-  font-family: "MyFont", sans-serif;
+.main-container {
+  background-image: url("./src/assets/images/background-main.webp");
+  background-size: cover;
+  background-position: center -350px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1600px;
+  min-width: 1600px !important;
+  background-color: rgb(255 255 255 / 13%);
+  border-radius: 15px;
+  padding: 0;
+  box-shadow: 0 14px 50px rgb(0 0 0 / 40%);
+}
+
+.sidebar {
+  width: 25%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-right: 1px solid #fcfcfc1c;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.sidebar h2.temperature-big {
+  font-weight: 300;
+  font-size: 90px;
+  margin: 0;
+}
+.sidebar .city-title {
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 2px;
+}
+
+.sidebar .details {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+h3.percentage {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+}
+
+h3.wind-details {
+  font-weight: 300;
+}
+
+.content {
+  width: 90%;
+  padding: 3rem;
+  display: grid;
+  align-items: end;
+}
+
+.content h2 {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
