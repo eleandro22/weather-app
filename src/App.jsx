@@ -19,7 +19,11 @@ const App = () => {
           </p>
         </div>
       </div>
-      <div className="content"> Content </div>
+      <div className="content">
+        <div className="content-heading">title</div>
+        <div className="graph"> Graph here</div>
+        <div className="forecast">Forecast here</div>
+      </div>
     </div>
   );
 };
