@@ -1,0 +1,7 @@
+body {
+  font-family: $font-family;
+  background: $bg-gradient;
+  @include center-flex;
+  padding: 0 4rem;
+  color: $white;
+}

@@ -1,0 +1,26 @@
+.main-container {
+  background-image: url("../assets/images/background-main.webp");
+  background-size: cover;
+  background-position: center -350px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1600px;
+  min-width: 1600px;
+  background-color: $main-bg-color;
+  border-radius: $radius;
+  box-shadow: $box-shadow;
+}
+
+.content {
+  width: 90%;
+  padding: $padding;
+  display: grid;
+  align-items: end;
+
+  h2 {
+    font-weight: 500;
+    color: $white-faded;
+    text-shadow: $text-shadow;
+  }
+}
