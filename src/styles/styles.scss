@@ -1,3 +1,4 @@
+@import "./fonts";
 @import "./variables";
 @import "./mixins";
 
@@ -8,4 +9,7 @@
 // Components
 @import "../components/Layout/layout";
 @import "../components/Sidebar/sidebar";
-@import "../components/SearchForm/searchform";
+@import "../components/Sidebar/SearchForm/searchform";
+@import "../components/Sidebar/CityDescription/CityDescription";
+
+@import "../pages/HomePage/HomePage.scss";
