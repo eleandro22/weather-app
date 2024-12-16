@@ -1,0 +1,18 @@
+.temperature-container {
+  h3 {
+    font-size: 90px;
+    font-weight: 100;
+  }
+
+  .rough-details {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-end;
+
+    p.rain-percentage {
+      font-size: 45px;
+      line-height: 1;
+    }
+  }
+}
