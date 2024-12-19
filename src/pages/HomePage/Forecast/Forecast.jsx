@@ -8,7 +8,7 @@ const Forecast = () => {
   ];
 
   return (
-    <div className="forecast-content" style={{ display: "flex", gap: "20px" }}>
+    <div className="forecast-content">
       {forecastData.map((day, index) => (
         <div key={index} className="forecast-content-day">
           <p style={{ fontWeight: "bold" }}>{day.day}</p>

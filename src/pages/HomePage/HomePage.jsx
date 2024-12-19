@@ -1,9 +1,9 @@
-import TemperatureChart from "./Chart/TemperatureChart";
+import TemperatureChart from "./TemperatureChart/TemperatureChart";
 import Forecast from "./Forecast/Forecast";
 
 const HomePage = () => {
   return (
-    <div className="main-content">
+    <div className="home-page-container">
       <div className="main-content-logo">
         <p className="content-logo">
           NATIONAL<br></br> WEATHER

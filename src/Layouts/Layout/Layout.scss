@@ -3,20 +3,22 @@
   background-size: cover;
   background-position: center -350px;
   display: flex;
-  justify-content: space-between;
   width: 100%;
-  max-width: 1600px;
-  min-width: 1600px;
   background-color: $main-bg-color;
   border-radius: $radius;
   box-shadow: $box-shadow;
+  margin: $padding;
+  overflow: hidden;
 }
 
 .content {
-  width: 90%;
+  width: 100%;
   padding: $padding;
   display: grid;
   align-items: end;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
 
   h2 {
     color: $white-faded;

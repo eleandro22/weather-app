@@ -7,7 +7,12 @@ const SearchForm = () => {
         width="20"
       />
       <input type="text" placeholder="Type city name"></input>
-      <img src="../src/assets/icons/search.svg" alt="search-icon" width="20" />
+      <img
+        className="search-icon"
+        src="../src/assets/icons/search.svg"
+        alt="search-icon"
+        width="20"
+      />
     </div>
   );
 };

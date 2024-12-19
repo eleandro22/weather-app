@@ -1,5 +1,5 @@
 .sidebar {
-  width: 25%;
+  flex: 0 0 310px;
   padding: $padding;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,7 @@
   border-radius: $radius;
   backdrop-filter: blur(10px);
   justify-content: space-around;
+  box-sizing: border-box;
 
   h2.temperature-big {
     font-weight: 300;
