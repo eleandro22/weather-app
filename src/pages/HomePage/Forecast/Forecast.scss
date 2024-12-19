@@ -3,6 +3,7 @@
   grid-template-columns: repeat(5, minmax(max-content, 1fr));
   gap: 10px;
   margin-top: 15px;
+  overflow-x: auto;
 
   &-day {
     border: 1px solid #ffffff45;

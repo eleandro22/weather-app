@@ -1,33 +1,45 @@
-const WeatherDetails = () => {
+const WeatherDetails = ({
+  maxTemp,
+  minTemp,
+  humidity,
+  windSpeed,
+  rainPercentage,
+}) => {
   return (
     <div className="details-container">
       <div className="details-box">
         <span role="img" aria-label="temperature">
           🌡️
         </span>{" "}
-        Max: 1.6°C
+        Max: {maxTemp}°C
       </div>
 
       <div className="details-box">
         <span role="img" aria-label="temperature">
           🌡️
         </span>{" "}
-        Min: 1.6°C
+        Min: {minTemp}°C
       </div>
 
-      {/* */}
       <div className="details-box">
         <span role="img" aria-label="humidity">
           💧
         </span>{" "}
-        Humidity: 97%
+        Humidity: {humidity}%
       </div>
 
       <div className="details-box">
         <span role="img" aria-label="wind">
           💨
         </span>{" "}
-        Wind: 3.2 m/s
+        Wind: {windSpeed} m/s
+      </div>
+
+      <div className="details-box">
+        <span role="img" aria-label="rain">
+          🌧️
+        </span>{" "}
+        Rain: {rainPercentage}%
       </div>
     </div>
   );
